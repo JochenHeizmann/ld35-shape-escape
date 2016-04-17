@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:bef01db686466798df083052d0c7e4b4:ad4f9a7b11f6dab0152af500d4492e8c:f06f59ee4b9a323e631d269f5f432f08$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+pX => x pos of the pivot point (relative to sprite width)
+pY => y pos of the pivot point (relative to sprite height)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+-->
+<TextureAtlas imagePath="spritesheet-1.png" width="1024" height="256">
+    <sprite n="background.png" x="4" y="4" w="320" h="240" pX="0.5" pY="0.5"/>
+    <sprite n="ball_big.png" x="706" y="104" w="16" h="16" pX="0.5" pY="0.5"/>
+    <sprite n="ball_small.png" x="728" y="146" w="12" h="12" pX="0.5" pY="0.5"/>
+    <sprite n="bird1.png" x="706" y="126" w="26" h="14" pX="0.5" pY="0.5" oX="2" oY="0" oW="30" oH="14"/>
+    <sprite n="bird2.png" x="676" y="204" w="30" h="12" pX="0.5" pY="0.5" oX="0" oY="2" oW="30" oH="14"/>
+    <sprite n="bird3.png" x="746" y="80" w="26" h="14" pX="0.5" pY="0.5" oX="2" oY="0" oW="30" oH="14"/>
+    <sprite n="bird4.png" x="708" y="176" w="30" h="12" pX="0.5" pY="0.5" oX="0" oY="0" oW="30" oH="14"/>
+    <sprite n="birdhighlight.png" x="676" y="184" w="26" h="14" pX="0.5" pY="0.5" oX="2" oY="0" oW="30" oH="14"/>
+    <sprite n="frog1.png" x="704" y="156" w="18" h="14" pX="0.5" pY="0.5" oX="0" oY="4" oW="20" oH="18"/>
+    <sprite n="frog2.png" x="656" y="232" w="20" h="18" pX="0.5" pY="0.5"/>
+    <sprite n="froghighlight.png" x="694" y="80" w="20" h="18" pX="0.5" pY="0.5"/>
+    <sprite n="hud(replay.png" x="676" y="156" w="22" h="22" pX="0.5" pY="0.5"/>
+    <sprite n="hud/bird.png" x="865" y="42" w="32" h="32" pX="0.5" pY="0.5"/>
+    <sprite n="hud/bird_empty.png" x="903" y="42" w="32" h="32" pX="0.5" pY="0.5"/>
+    <sprite n="hud/bird_hover.png" x="941" y="42" w="32" h="32" pX="0.5" pY="0.5"/>
+    <sprite n="hud/frog.png" x="865" y="4" w="33" h="32" pX="0.5" pY="0.5"/>
+    <sprite n="hud/frog_empty.png" x="904" y="4" w="33" h="32" pX="0.5" pY="0.5"/>
+    <sprite n="hud/frog_hover.png" x="941" y="42" w="32" h="32" pX="0.5" pY="0.5"/>
+    <sprite n="hud/replay_hover.png" x="678" y="118" w="22" h="22" pX="0.5" pY="0.5"/>
+    <sprite n="hud/stone.png" x="979" y="42" w="32" h="32" pX="0.5" pY="0.5"/>
+    <sprite n="hud/stone_empty.png" x="656" y="80" w="32" h="32" pX="0.5" pY="0.5"/>
+    <sprite n="hud/stone_hover.png" x="941" y="42" w="32" h="32" pX="0.5" pY="0.5"/>
+    <sprite n="hud/walker.png" x="943" y="4" w="33" h="32" pX="0.5" pY="0.5"/>
+    <sprite n="hud/walker_empty.png" x="982" y="4" w="33" h="32" pX="0.5" pY="0.5"/>
+    <sprite n="hud/walker_hover.png" x="941" y="42" w="32" h="32" pX="0.5" pY="0.5"/>
+    <sprite n="particles/black.png" x="678" y="146" w="4" h="4" pX="0.5" pY="0.5"/>
+    <sprite n="particles/blue.png" x="688" y="146" w="4" h="4" pX="0.5" pY="0.5"/>
+    <sprite n="particles/green.png" x="698" y="146" w="4" h="4" pX="0.5" pY="0.5"/>
+    <sprite n="requester.png" x="656" y="4" w="203" h="63" pX="0.5" pY="0.5"/>
+    <sprite n="stone1.png" x="720" y="80" w="20" h="15" pX="0.5" pY="0.5"/>
+    <sprite n="stonehighlight.png" x="728" y="101" w="20" h="15" pX="0.5" pY="0.5"/>
+    <sprite n="title.png" x="330" y="4" w="320" h="240" pX="0.5" pY="0.5"/>
+    <sprite n="walker1.png" x="656" y="118" w="16" h="32" pX="0.5" pY="0.5"/>
+    <sprite n="walker2.png" x="656" y="156" w="14" h="32" pX="0.5" pY="0.5" oX="0" oY="0" oW="16" oH="32"/>
+    <sprite n="walkerhighlight.png" x="656" y="194" w="14" h="32" pX="0.5" pY="0.5" oX="0" oY="0" oW="16" oH="32"/>
+</TextureAtlas>

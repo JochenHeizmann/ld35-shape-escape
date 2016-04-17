@@ -1,0 +1,18 @@
+{
+  "package": "com.asylumsquare.ld35",
+  "version": "1.0",
+  "build": 1,
+  "title": "ld35",
+  "description": "",
+  "width": 640,
+  "height": 480,
+  "orientation": "landscape",
+  "image_filtering": false,
+  "fullscreen": false,
+  "vars": [
+    {
+      "name": "OPENGL_GLES20_ENABLED",
+      "value": "true"
+    }
+  ]
+}

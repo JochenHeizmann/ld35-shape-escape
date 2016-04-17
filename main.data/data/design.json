@@ -1,0 +1,847 @@
+{
+    "components": [
+        {
+            "id": 1,
+            "layerId": 39,
+            "type": "layer",
+            "path": [
+                "game",
+                "background"
+            ],
+            "name": "background.png",
+            "x": 0,
+            "y": 0,
+            "width": 320,
+            "height": 240,
+            "scale": {
+                "x": 1,
+                "y": 1
+            },
+            "filename": "background.png",
+            "zIndex": 3
+        },
+        {
+            "id": 2,
+            "layerId": 7,
+            "type": "textLayer",
+            "path": [
+                "game",
+                "hud"
+            ],
+            "name": "hud.font",
+            "x": 110,
+            "y": 11,
+            "width": 102,
+            "height": 7,
+            "scale": {
+                "x": 1,
+                "y": 1
+            },
+            "filename": "hud.font",
+            "zIndex": 4,
+            "text": {
+                "text": "LUDUM DARE 35",
+                "font_name": "Press Start 2P",
+                "font_style": "Regular",
+                "size": 8,
+                "color": {
+                    "red": 255,
+                    "green": 255,
+                    "blue": 255
+                },
+                "align": "center",
+                "tracking": 0,
+                "leading": "auto",
+                "atlas_name": "Press_Start 2P-Regular-8"
+            }
+        },
+        {
+            "id": 3,
+            "layerId": 74,
+            "type": "layer",
+            "path": [
+                "game",
+                "hud"
+            ],
+            "name": "hud/walker.png",
+            "x": 0,
+            "y": 208,
+            "width": 33,
+            "height": 32,
+            "scale": {
+                "x": 1,
+                "y": 1
+            },
+            "filename": "hud/walker.png",
+            "zIndex": 5
+        },
+        {
+            "id": 4,
+            "layerId": 76,
+            "type": "layer",
+            "path": [
+                "game",
+                "hud"
+            ],
+            "name": "hud/frog.png",
+            "x": 32,
+            "y": 208,
+            "width": 33,
+            "height": 32,
+            "scale": {
+                "x": 1,
+                "y": 1
+            },
+            "filename": "hud/frog.png",
+            "zIndex": 6
+        },
+        {
+            "id": 5,
+            "layerId": 78,
+            "type": "layer",
+            "path": [
+                "game",
+                "hud"
+            ],
+            "name": "hud/bird.png",
+            "x": 64,
+            "y": 208,
+            "width": 32,
+            "height": 32,
+            "scale": {
+                "x": 1,
+                "y": 1
+            },
+            "filename": "hud/bird.png",
+            "zIndex": 7
+        },
+        {
+            "id": 6,
+            "layerId": 167,
+            "type": "layer",
+            "path": [
+                "game",
+                "hud"
+            ],
+            "name": "hud/stone.png",
+            "x": 96,
+            "y": 208,
+            "width": 32,
+            "height": 32,
+            "scale": {
+                "x": 1,
+                "y": 1
+            },
+            "filename": "hud/stone.png",
+            "zIndex": 8
+        },
+        {
+            "id": 7,
+            "layerId": 109,
+            "type": "layer",
+            "path": [
+                "game",
+                "hud"
+            ],
+            "name": "hud/walker_empty.png",
+            "x": 0,
+            "y": 208,
+            "width": 33,
+            "height": 32,
+            "scale": {
+                "x": 1,
+                "y": 1
+            },
+            "filename": "hud/walker_empty.png",
+            "zIndex": 9
+        },
+        {
+            "id": 8,
+            "layerId": 114,
+            "type": "layer",
+            "path": [
+                "game",
+                "hud"
+            ],
+            "name": "hud/frog_empty.png",
+            "x": 32,
+            "y": 208,
+            "width": 33,
+            "height": 32,
+            "scale": {
+                "x": 1,
+                "y": 1
+            },
+            "filename": "hud/frog_empty.png",
+            "zIndex": 10
+        },
+        {
+            "id": 9,
+            "layerId": 119,
+            "type": "layer",
+            "path": [
+                "game",
+                "hud"
+            ],
+            "name": "hud/bird_empty.png",
+            "x": 64,
+            "y": 208,
+            "width": 32,
+            "height": 32,
+            "scale": {
+                "x": 1,
+                "y": 1
+            },
+            "filename": "hud/bird_empty.png",
+            "zIndex": 11
+        },
+        {
+            "id": 10,
+            "layerId": 173,
+            "type": "layer",
+            "path": [
+                "game",
+                "hud"
+            ],
+            "name": "hud/stone_empty.png",
+            "x": 96,
+            "y": 208,
+            "width": 32,
+            "height": 32,
+            "scale": {
+                "x": 1,
+                "y": 1
+            },
+            "filename": "hud/stone_empty.png",
+            "zIndex": 12
+        },
+        {
+            "id": 11,
+            "layerId": 104,
+            "type": "layer",
+            "path": [
+                "game",
+                "hud"
+            ],
+            "name": "hud/walker_hover.png",
+            "x": 0,
+            "y": 208,
+            "width": 32,
+            "height": 32,
+            "scale": {
+                "x": 1,
+                "y": 1
+            },
+            "filename": "hud/walker_hover.png",
+            "zIndex": 13
+        },
+        {
+            "id": 12,
+            "layerId": 103,
+            "type": "layer",
+            "path": [
+                "game",
+                "hud"
+            ],
+            "name": "hud/frog_hover.png",
+            "x": 32,
+            "y": 208,
+            "width": 32,
+            "height": 32,
+            "scale": {
+                "x": 1,
+                "y": 1
+            },
+            "filename": "hud/frog_hover.png",
+            "zIndex": 14
+        },
+        {
+            "id": 13,
+            "layerId": 102,
+            "type": "layer",
+            "path": [
+                "game",
+                "hud"
+            ],
+            "name": "hud/bird_hover.png",
+            "x": 64,
+            "y": 208,
+            "width": 32,
+            "height": 32,
+            "scale": {
+                "x": 1,
+                "y": 1
+            },
+            "filename": "hud/bird_hover.png",
+            "zIndex": 15
+        },
+        {
+            "id": 14,
+            "layerId": 175,
+            "type": "layer",
+            "path": [
+                "game",
+                "hud"
+            ],
+            "name": "hud/stone_hover.png",
+            "x": 96,
+            "y": 208,
+            "width": 32,
+            "height": 32,
+            "scale": {
+                "x": 1,
+                "y": 1
+            },
+            "filename": "hud/stone_hover.png",
+            "zIndex": 16
+        },
+        {
+            "id": 15,
+            "layerId": 87,
+            "type": "textLayer",
+            "path": [
+                "game",
+                "hud"
+            ],
+            "name": "walker_count.font",
+            "x": 2,
+            "y": 210,
+            "width": 9,
+            "height": 6,
+            "scale": {
+                "x": 1,
+                "y": 1
+            },
+            "filename": "walker_count.font",
+            "zIndex": 17,
+            "text": {
+                "text": "X2",
+                "font_name": "Small Pixel",
+                "font_style": "Regular",
+                "size": 8,
+                "color": {
+                    "red": 252,
+                    "green": 252,
+                    "blue": 255
+                },
+                "align": "left",
+                "tracking": 0,
+                "leading": "auto",
+                "atlas_name": "Small_Pixel-Regular-8"
+            }
+        },
+        {
+            "id": 16,
+            "layerId": 86,
+            "type": "textLayer",
+            "path": [
+                "game",
+                "hud"
+            ],
+            "name": "frog_count.font",
+            "x": 34,
+            "y": 210,
+            "width": 9,
+            "height": 6,
+            "scale": {
+                "x": 1,
+                "y": 1
+            },
+            "filename": "frog_count.font",
+            "zIndex": 18,
+            "text": {
+                "text": "X2",
+                "font_name": "Small Pixel",
+                "font_style": "Regular",
+                "size": 8,
+                "color": {
+                    "red": 252,
+                    "green": 252,
+                    "blue": 255
+                },
+                "align": "left",
+                "tracking": 0,
+                "leading": "auto",
+                "atlas_name": "Small_Pixel-Regular-8"
+            }
+        },
+        {
+            "id": 17,
+            "layerId": 85,
+            "type": "textLayer",
+            "path": [
+                "game",
+                "hud"
+            ],
+            "name": "bird_count.font",
+            "x": 66,
+            "y": 210,
+            "width": 9,
+            "height": 6,
+            "scale": {
+                "x": 1,
+                "y": 1
+            },
+            "filename": "bird_count.font",
+            "zIndex": 19,
+            "text": {
+                "text": "X2",
+                "font_name": "Small Pixel",
+                "font_style": "Regular",
+                "size": 8,
+                "color": {
+                    "red": 252,
+                    "green": 252,
+                    "blue": 255
+                },
+                "align": "left",
+                "tracking": 0,
+                "leading": "auto",
+                "atlas_name": "Small_Pixel-Regular-8"
+            }
+        },
+        {
+            "id": 18,
+            "layerId": 176,
+            "type": "textLayer",
+            "path": [
+                "game",
+                "hud"
+            ],
+            "name": "stone_count.font",
+            "x": 98,
+            "y": 210,
+            "width": 9,
+            "height": 6,
+            "scale": {
+                "x": 1,
+                "y": 1
+            },
+            "filename": "stone_count.font",
+            "zIndex": 20,
+            "text": {
+                "text": "X2",
+                "font_name": "Small Pixel",
+                "font_style": "Regular",
+                "size": 8,
+                "color": {
+                    "red": 252,
+                    "green": 252,
+                    "blue": 255
+                },
+                "align": "left",
+                "tracking": 0,
+                "leading": "auto",
+                "atlas_name": "Small_Pixel-Regular-8"
+            }
+        },
+        {
+            "id": 19,
+            "layerId": 181,
+            "type": "layer",
+            "path": [
+                "game",
+                "hud"
+            ],
+            "name": "hud(replay.png",
+            "x": 298,
+            "y": 218,
+            "width": 22,
+            "height": 22,
+            "scale": {
+                "x": 1,
+                "y": 1
+            },
+            "filename": "hud(replay.png",
+            "zIndex": 21
+        },
+        {
+            "id": 20,
+            "layerId": 184,
+            "type": "layer",
+            "path": [
+                "game",
+                "hud"
+            ],
+            "name": "hud/replay_hover.png",
+            "x": 298,
+            "y": 218,
+            "width": 22,
+            "height": 22,
+            "scale": {
+                "x": 1,
+                "y": 1
+            },
+            "filename": "hud/replay_hover.png",
+            "zIndex": 22
+        },
+        {
+            "id": 21,
+            "layerId": 41,
+            "type": "animation",
+            "path": [
+                "game",
+                "sprites",
+                "walker"
+            ],
+            "name": "walker",
+            "x": 56,
+            "y": 77,
+            "width": 16,
+            "height": 32,
+            "scale": {
+                "x": 1,
+                "y": 1
+            },
+            "filename": "walker1.png",
+            "zIndex": 23,
+            "frames": [
+                "walker1.png",
+                "walker2.png",
+                "walkerhighlight.png"
+            ]
+        },
+        {
+            "id": 22,
+            "layerId": 48,
+            "type": "animation",
+            "path": [
+                "game",
+                "sprites",
+                "frog"
+            ],
+            "name": "frog",
+            "x": 94,
+            "y": 91,
+            "width": 20,
+            "height": 18,
+            "scale": {
+                "x": 1,
+                "y": 1
+            },
+            "filename": "frog1.png",
+            "zIndex": 24,
+            "frames": [
+                "frog1.png",
+                "frog2.png",
+                "froghighlight.png"
+            ]
+        },
+        {
+            "id": 23,
+            "layerId": 56,
+            "type": "animation",
+            "path": [
+                "game",
+                "sprites",
+                "bird"
+            ],
+            "name": "bird",
+            "x": 119,
+            "y": 80,
+            "width": 30,
+            "height": 14,
+            "scale": {
+                "x": 1,
+                "y": 1
+            },
+            "filename": "bird1.png",
+            "zIndex": 25,
+            "frames": [
+                "bird1.png",
+                "bird2.png",
+                "bird3.png",
+                "bird4.png",
+                "birdhighlight.png"
+            ]
+        },
+        {
+            "id": 24,
+            "layerId": 157,
+            "type": "animation",
+            "path": [
+                "game",
+                "sprites",
+                "stone"
+            ],
+            "name": "stone",
+            "x": 49,
+            "y": 115,
+            "width": 20,
+            "height": 15,
+            "scale": {
+                "x": 1,
+                "y": 1
+            },
+            "filename": "stone1.png",
+            "zIndex": 26,
+            "frames": [
+                "stone1.png",
+                "stonehighlight.png"
+            ]
+        },
+        {
+            "id": 25,
+            "layerId": 134,
+            "type": "layer",
+            "path": [
+                "game",
+                "sprites"
+            ],
+            "name": "particles/blue.png",
+            "x": 12,
+            "y": 32,
+            "width": 4,
+            "height": 4,
+            "scale": {
+                "x": 1,
+                "y": 1
+            },
+            "filename": "particles/blue.png",
+            "zIndex": 27
+        },
+        {
+            "id": 26,
+            "layerId": 135,
+            "type": "layer",
+            "path": [
+                "game",
+                "sprites"
+            ],
+            "name": "particles/green.png",
+            "x": 21,
+            "y": 32,
+            "width": 4,
+            "height": 4,
+            "scale": {
+                "x": 1,
+                "y": 1
+            },
+            "filename": "particles/green.png",
+            "zIndex": 28
+        },
+        {
+            "id": 27,
+            "layerId": 136,
+            "type": "layer",
+            "path": [
+                "game",
+                "sprites"
+            ],
+            "name": "particles/black.png",
+            "x": 30,
+            "y": 32,
+            "width": 4,
+            "height": 4,
+            "scale": {
+                "x": 1,
+                "y": 1
+            },
+            "filename": "particles/black.png",
+            "zIndex": 29
+        },
+        {
+            "id": 28,
+            "layerId": 154,
+            "type": "layer",
+            "path": [
+                "game",
+                "sprites",
+                "balls"
+            ],
+            "name": "ball_small.png",
+            "x": 210,
+            "y": 95,
+            "width": 12,
+            "height": 12,
+            "scale": {
+                "x": 1,
+                "y": 1
+            },
+            "filename": "ball_small.png",
+            "zIndex": 30
+        },
+        {
+            "id": 29,
+            "layerId": 153,
+            "type": "layer",
+            "path": [
+                "game",
+                "sprites",
+                "balls"
+            ],
+            "name": "ball_big.png",
+            "x": 193,
+            "y": 93,
+            "width": 16,
+            "height": 16,
+            "scale": {
+                "x": 1,
+                "y": 1
+            },
+            "filename": "ball_big.png",
+            "zIndex": 31
+        },
+        {
+            "id": 30,
+            "layerId": 99,
+            "type": "layer",
+            "path": [
+                "messagebox"
+            ],
+            "name": "requester.png",
+            "x": 69,
+            "y": 86,
+            "width": 203,
+            "height": 63,
+            "scale": {
+                "x": 1,
+                "y": 1
+            },
+            "filename": "requester.png",
+            "zIndex": 32
+        },
+        {
+            "id": 31,
+            "layerId": 100,
+            "type": "textLayer",
+            "path": [
+                "messagebox"
+            ],
+            "name": "messagebox/text.font",
+            "x": 114,
+            "y": 112,
+            "width": 118,
+            "height": 7,
+            "scale": {
+                "x": 1,
+                "y": 1
+            },
+            "filename": "messagebox/text.font",
+            "zIndex": 33,
+            "text": {
+                "text": "LEVEL COMPLETED",
+                "font_name": "Press Start 2P",
+                "font_style": "Regular",
+                "size": 8,
+                "color": {
+                    "red": 240,
+                    "green": 217,
+                    "blue": 189
+                },
+                "align": "center",
+                "tracking": 0,
+                "leading": "auto",
+                "atlas_name": "Press_Start 2P-Regular-8"
+            }
+        },
+        {
+            "id": 32,
+            "layerId": 208,
+            "type": "layer",
+            "path": [
+                "title"
+            ],
+            "name": "title.png",
+            "x": 0,
+            "y": 0,
+            "width": 320,
+            "height": 240,
+            "scale": {
+                "x": 1,
+                "y": 1
+            },
+            "filename": "title.png",
+            "zIndex": 1
+        },
+        {
+            "id": 33,
+            "layerId": 220,
+            "type": "textLayer",
+            "path": [
+                "title"
+            ],
+            "name": "anykey.font",
+            "x": 98,
+            "y": 105,
+            "width": 114,
+            "height": 6,
+            "scale": {
+                "x": 1,
+                "y": 1
+            },
+            "filename": "anykey.font",
+            "zIndex": 2,
+            "text": {
+                "text": "PRESS ANY KEY TO START!",
+                "font_name": "Small Pixel",
+                "font_style": "Regular",
+                "size": 8,
+                "color": {
+                    "red": 255,
+                    "green": 255,
+                    "blue": 255
+                },
+                "align": "center",
+                "tracking": 0,
+                "leading": "auto",
+                "atlas_name": "Small_Pixel-Regular-8"
+            }
+        }
+    ],
+    "document": {
+        "width": 320,
+        "height": 240,
+        "fonts": "fonts/fonts.xml",
+        "spritesheet": "gfx/assets{n1}.xml",
+        "properties": [
+            {
+                "path": [
+                    "properties",
+                    "data"
+                ],
+                "key": "configFile",
+                "value": "data/design.json"
+            },
+            {
+                "path": [
+                    "properties",
+                    "spritesheet"
+                ],
+                "key": "dataFile",
+                "value": "gfx/assets{n1}.xml"
+            },
+            {
+                "path": [
+                    "properties",
+                    "spritesheet"
+                ],
+                "key": "imageFile",
+                "value": "gfx/spritesheet-{n1}.png"
+            },
+            {
+                "path": [
+                    "properties",
+                    "fonts"
+                ],
+                "key": "configFile",
+                "value": "fonts/fonts.xml"
+            },
+            {
+                "path": [
+                    "properties",
+                    "fonts"
+                ],
+                "key": "antiAlias",
+                "value": "0"
+            },
+            {
+                "path": [
+                    "properties"
+                ],
+                "key": "destination",
+                "value": "../../main.data"
+            }
+        ]
+    }
+}
