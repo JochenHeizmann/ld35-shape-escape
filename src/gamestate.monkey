@@ -79,7 +79,7 @@ Class GameState
     Field player := New Player()
 
     Const LEVELS := 7
-    Field level% = 7
+    Field level% = 1
     
     Field map:TiledMap
     Field mapLookup%[]
